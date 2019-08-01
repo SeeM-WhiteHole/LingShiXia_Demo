@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 135.33px;
+    background-color:rgb(255, 215, 58);
+    display: flex;
+    justify-content: center;
+}
+header div{
+    position: relative;
+    width: 1000px;
+    height: 135.33px;
+}
+header img{
+    padding-top: 10px;
+    position: absolute;
+    width: 200px;
+    height: 71.33px;
+}
+header div ul{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    float: left;
+    text-align: right;
+    width: 500px;
+    height: 21px;
+}
+header div ul li{
+    width: 100px;
+    height: 21px;
+    float: left;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+header h3{
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+#pageOne{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 25px;
+}
+#pageOne p{
+    font-size: 20px;
+}
+.swiper-container{
+    position: relative;
+    overflow: hidden;
+}
+.jumpSellBox {
+    width: 100%;
+    position: relative;
+}
+.jumpSellBox img {
+    width: 96%;
+    margin: 3%;
+}
+.swiper-pagination{
+    text-align: center;
+    width: 100%;
+    height: 21px;
+}
+.swiper-pagination span{
+    margin: 0 10px;
+}
+.swiper-button-prev{
+    background-color: black;
+    position: absolute;
+    left: 40px;
+}
+.swiper-button-next{
+    background-color: black;
+    position: absolute;
+    left: 96.5%;
+}
+.productExplain{
+    height: 20px;
+    width: 96%;
+    left: 3%;
+    color: white;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 19px;
+    /*transition: all 0.3s linear;*/
+    opacity: 0;
+    overflow: hidden;
+}
+/*.jumpSellBox:hover .productExplain {
+    opacity: 1;
+    height: 57px;
+}*/
+.productExplain p{
+    margin-left: 20px;
+}
+#gray{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240,240,240);
+    margin: 20px 0;
+}
+#pageTwo{
+    width: 1000px;
+
+    margin: 0 auto;
+    background-color: white;
+}
+.imgBoxUp{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#imgBoxUpLeft{
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+}
+#imgBoxUpLeft img{
+    width: 100%;
+    transition: all 2s;
+}
+#imgBoxUpRight{
+    position: relative;
+    top: 450px;
+    width: 30%;
+    height: 440px;
+    float: left;
+}
+#imgBoxDown{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.sUp{
+    border-right: 10px solid transparent;
+    float: left;
+    width: 48%;
+    height: 210.11px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.sUp1{
+    top: 460px;
+}
+.sUp2{
+    top: 230px;
+}
+.sUp img {
+    width: 100%;
+    height: 100%;
+}
+.sUp:hover img{
+    transform: scale(1.5);
+}
+.sUp p{
+    display: table;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    color: white;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+.sUp p span{
+    display: table-cell;
+    vertical-align: middle;
+}
+#bigUp{
+    top: 10px;
+    width: 99%;
+    height: 434px;
+    overflow: hidden;
+}
+#bigUp div{
+    position: relative;
+}
+#bigUp img {
+    width: 100%;
+    height: 434px;
+    transition: all 2s;
+}
+#bigUp:hover img{
+    transform: scale(1.5);
+}
+#bigUp p{
+    display: table;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    color: white;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+#bigUp p span{
+    display: table-cell;
+    vertical-align: middle;
+}
+#imgBoxDown{
+    width: 100%;
+    overflow: hidden;
+}
+#imgDL{
+    width: 47%;
+    height: 440px;
+    float: left;
+    position: relative;
+}
+#bigDown{
+    width: 99%;
+    height: 666px;
+    position: relative;
+    top: 680px;
+    overflow: hidden;
+}
+#bigDown img{
+    width: 100%;
+    height: 666px;
+    transition: all 2s;
+}
+#imgDL:hover img{
+    transform: scale(1.5);
+}
+#imgDR{
+    float: left;
+    width: 53%;
+    overflow: hidden;
+    position: relative;
+}
+.sDnown{
+    position: relative;
+    border-left: 10px solid transparent;
+    float: left;
+    width: 48%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.sDnown1{
+    top:678px;
+}
+.sDnown2{
+    top:510px;
+}
+.sDnown3{
+    top:340px;
+}
+.sDnown4{
+    top:180px;
+}
+.sDnown img{
+    float: left;
+    width: 100%;
+    transition: all 2s;
+}
+.sDnown:hover img{
+    transform: scale(1.5);
+}
+#bigDown p{
+    display: table;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    color: white;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+#bigDown p span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.sDnown p{
+    display: table;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    color: white;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+.sDnown p span{
+    display: table-cell;
+    vertical-align: middle;
+}
+#footer{
+    width: 100%;
+    height: 83.11px;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+}
+#footer p{
+    padding-top: 40.1094px;
+    color: #A9A9A9;
+}

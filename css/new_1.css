@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 135.33px;
+    background-color:rgb(255, 215, 58);
+    display: flex;
+    justify-content: center;
+}
+header div{
+    position: relative;
+    width: 1000px;
+    height: 135.33px;
+}
+header img{
+    padding-top: 10px;
+    position: absolute;
+    width: 200px;
+    height: 71.33px;
+}
+header div ul{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    float: left;
+    text-align: right;
+    width: 500px;
+    height: 21px;
+}
+header div ul li{
+    width: 100px;
+    height: 21px;
+    float: left;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+header h3{
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+#pageBoxOne{
+    width: 100%;
+    height: 254px;
+    background:  url("../img/new_1/new_1_bg.jpg") no-repeat;
+    padding-top: 186px;
+    background-size: 100% 100%;
+}
+#pageBoxOne h3 {
+    margin: auto;
+    color: white;
+    font-size: 45px;
+    width: 193px;
+}
+#pageBoxOne p {
+    margin: 25px auto 0;
+    width: 145px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+#pageBoxTwo {
+    margin: 108px auto 70px;
+    width: 1039px;
+    overflow: hidden;
+}
+#pageBoxTwo a {
+    display: inline-block;
+    border: 1px solid rgb(238, 238, 238);
+    text-decoration: none;
+    color: black;
+    width: 513px;
+    height: 174px;
+    float: left;
+}
+#pageBoxTwo a img {
+    width: 200px;
+    height: 142px;
+    float: left;
+    margin: 15px 0 15px 15px;
+}
+#pageBoxTwo a span {
+    display: inline-block;
+    float: left;
+    width: 260px;
+    height: 115px;
+    margin: 18px;
+    color: rgb(140, 144, 144);
+}
+#pageBoxTwo a span h4 {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: rgb(133, 137, 137);
+}
+#pageBoxTwo a span p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+#pageBoxThree {
+    margin: 0 auto 126px;
+    width: 80px;
+    height: 15px;
+    font-size: 18px;
+    color: rgb(140, 144, 144);
+}
+#footer{
+    width: 100%;
+    height: 83.11px;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+}
+#footer p{
+    padding-top: 40.1094px;
+    color: #A9A9A9;
+}

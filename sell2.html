@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/sell2.css">
+    <link rel="shortcut icon" href="./img/ico/logo.ico"/>
+    <link rel="bookmark" href="./img/ico/logo.ico"/>
+    <title>产品贩售</title>
+<body>
+<div id="orderBox">
+    <div id="order">
+        <div id="check">确认订单</div>
+        <p id="list">订单列表</p>
+        <hr width="560px" size="3px" >
+        <div>
+            <table border="1" bordercolor="lightgray" cellspacing="0" width="560" align="center">
+                <thead>
+                <tr>
+                    <th>名称</th>
+                    <th>数量</th>
+                    <th>单价</th>
+                </tr>
+                </thead>
+                <tbody id="tbody" align="center"></tbody>
+            </table>
+        </div>
+        <div id="order_1">
+            <span>包邮</span><br><br>
+            <span style="color: orange;font-size: 25px;" id="priceAll"></span>
+            <span style="font-size: 25px;">¥</span>
+        </div>
+        <div>
+            <div  id="order_2">
+                <p>收货地址<span style="font-size: 12px">(<span style="color: red">*</span>为必填项)</span></p>
+            </div>
+            <div id="infoList">
+                <span style="margin-left: 30px;">姓名:<span style="font-size: 12px"><span style="color: red">*</span></span></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="buyerName" placeholder="请输入姓名">
+                <br><br>
+                <span style="margin-left: 30px;">邮箱:<span style="font-size: 12px"><span style="color: red">*</span></span></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="buyerEmail" placeholder="请输入邮箱">
+                <br><br>
+                <span style="margin-left: 30px;">手机号:<span style="font-size: 12px"><span style="color: red">*</span></span></span>
+                &nbsp;
+                <input type="text" id="buyerPhone" placeholder="请输入手机号">
+                <br><br>
+                <span style="margin-left: 30px;">地址:<span style="font-size: 12px"><span style="color: red">*</span></span></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <div id="selBox">
+                    <div id="sel1Box">
+                        <select name="city" onchange="" id="sel1">
+                            <option value="0">---请选择省份/城市---</option>
+                            <option value="1">---北京市---</option>
+                            <option value="2">---上海市---</option>
+                            <option value="3">---天津市---</option>
+                        </select>
+                    </div>
+                    <div id="sel2Box">
+                        <select name="town" onchange="" id="sel2">
+                            <option value="0">---请选择所在省份和地区---</option>
+                        </select>
+                    </div>
+                </div>
+                <span style="margin-left: 70px;margin-right: 30px"></span>
+                <input type="text" id="buyerAddress" placeholder="请输入详细地址">
+                <br><br>
+                <span style="margin-left: 30px;">邮编:<span style="font-size: 12px"><span style="color: red">*</span></span></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="buyerPostcode" placeholder="请输入邮编">
+                <br><br>
+                <span style="margin-left: 30px;">备注:&nbsp;</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <textarea style="width: 200px;height: 100px" placeholder="请输入给商家的留言"></textarea>
+            </div>
+        </div>
+        <div id="order_3">
+            <div id="cancel">取消订单</div>
+            <div id="confirm">确定订单</div>
+        </div>
+    </div>
+</div>
+<header>
+    <div>
+        <a href="inedx.html"><img src="./img/index/logo.png" alt=""></a>
+        <ul>
+            <li><a href="inedx.html">首页</a></li>
+            <li><a href="productSell.html">产品贩售</a></li>
+            <li><a href="new_1.html">公司动态</a></li>
+            <li><a href="aboutUs.html">关于我们</a></li>
+            <li><a href="contactUs.html">联系我们</a></li>
+        </ul>
+        <h3>一刻钟 • 带你的味蕾环游世界</h3>
+    </div>
+</header>
+<div id="pageOne">
+    <p>零食侠 带你的味蕾环游世界</p>
+    <div id="buybox">
+        <p id="name">休息一小包下午茶礼包</p>
+        <p>¥<span id="price">39.9</span></p>
+        <div id="controlBox">
+            <p id="reduce">-</p>
+            <input type="text" value="1" id="amount">
+            <p id="add">+</p>
+        </div>
+        <br><br><br><br><br>
+        <div id="btnbuy">立即购买</div>
+    </div>
+    <div id="imgBox">
+        <img src="img/sell2/sell_2_header.jpg" alt="">
+    </div>
+</div>
+<div id="pageTwo">
+    <h2>商品详情</h2>
+    <p>Goods details</p>
+    <div id="productInfo">
+        <img src="img/sell2/sell_2_1.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_2.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_3.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_4.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_5.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_6.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_7.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_8.jpg" alt=""><br>
+        <img src="img/sell2/sell_2_9.jpg" alt=""><br>
+        <div class="proImg"><img src="img/sell2/sell_2_10.png" alt=""></div>
+    </div>
+</div>
+<div id="footer">
+    <p>Copyright © 2015-2016 成都零食侠科技有限公司。蜀ICP备 15027883号-1</p>
+</div>
+<script src="js/sell2.js"></script>
+</body>
+</html>

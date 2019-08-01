@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 135.33px;
+    background-color:rgb(255, 215, 58);
+    display: flex;
+    justify-content: center;
+}
+header div{
+    position: relative;
+    width: 1000px;
+    height: 135.33px;
+}
+header img{
+    padding-top: 10px;
+    position: absolute;
+    width: 200px;
+    height: 71.33px;
+}
+header div ul{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    float: left;
+    text-align: right;
+    width: 500px;
+    height: 21px;
+}
+header div ul li{
+    width: 100px;
+    height: 21px;
+    float: left;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+header h3{
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+#pageOne{
+    width: 969px;
+    height: 345px;
+    margin: 0 auto;
+}
+#pageOne > p{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    margin: 0 0 50px 10px;
+    color: #808080;
+}
+#buybox{
+    width: 452px;
+    height: 272px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+}
+#buybox > p:nth-child(1){
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    margin: 10px 0 50px 10px;
+    color: #808080;
+}
+#buybox > p:nth-child(2){
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#buybox > p:nth-child(2) span{
+    color: orange;
+}
+#controlBox{
+    padding-top: 15px;
+    float: right;
+    margin-right: 10px;
+}
+#controlBox p:nth-child(1){
+    cursor:pointer;
+    height: 24px;
+    width: 22px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    float: left;
+}
+#controlBox p:nth-child(1):hover{
+    border-color:orange;
+    color: orange;
+}
+#controlBox input{
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    float: left;
+}
+#controlBox p:nth-child(3){
+    cursor:pointer;
+    height: 24px;
+    width: 22px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    float: left;
+}
+#controlBox p:nth-child(3):hover{
+    border-color:orange;
+    color: orange;
+}
+#btnbuy{
+    cursor:pointer;
+    width: 100%;
+    height: 36px;
+    background-color: rgb(255,192,48);
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    border-radius: 5%;
+}
+#imgBox{
+    float: left;
+    margin-left: 115px;
+}
+#pageTwo{
+    width: 730px;
+    margin: 0 auto;
+}
+#pageTwo h2{
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: black;
+}
+#pageTwo p{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: black;
+}
+#orderBox{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: none;
+    z-index:1000;
+}
+#order{
+    position: fixed;
+    left: 35%;
+    top: 50px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid grey;
+}
+#order #check{
+    width: 575px;
+    height: 45px;
+    background-color: rgb(245, 245, 245);
+    color: gray;
+    line-height: 45px;
+    padding-left: 25px;
+}
+#order #list{
+    padding-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+#order hr{
+    background-color:lightgray;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+#order div table{
+    margin-left: 20px;
+}
+#order_1{
+    width: 560px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+#order_1 span{
+    display: inline-block;
+    float: right;
+}
+#order_2{
+    margin: 40px 0 20px 20px;
+}
+#infoList input{
+    background-color: rgb(245, 245, 245);
+    width: 200px;
+    height: 25px;
+}
+#selBox{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+    top: -20px;
+    overflow: hidden;
+}
+#sel1Box,
+#sel2Box{
+    margin-bottom: 5px;
+    float: left;
+}
+#order_3{
+    overflow: hidden;
+    float: right;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#cancel{
+    cursor:pointer;
+    width: 95px;
+    height: 35px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid gray;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+}
+#confirm{
+    cursor:pointer;
+    width: 95px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    margin-left: 25px;
+    border: 1px solid gray;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+}
+#footer{
+    width: 100%;
+    height: 83.11px;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+}
+#footer p{
+    padding-top: 40.1094px;
+    color: #A9A9A9;
+}

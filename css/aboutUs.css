@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 135.33px;
+    background-color:rgb(255, 215, 58);
+    display: flex;
+    justify-content: center;
+}
+header div{
+    position: relative;
+    width: 1000px;
+    height: 135.33px;
+}
+header img{
+    padding-top: 10px;
+    position: absolute;
+    width: 200px;
+    height: 71.33px;
+}
+header div ul{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    float: left;
+    text-align: right;
+    width: 500px;
+    height: 21px;
+}
+header div ul li{
+    width: 100px;
+    height: 21px;
+    float: left;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+header h3{
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+#pageBoxOne{
+    width: 100%;
+    height: 780px;
+    background: url("../img/aboutUs/aboutUs_bg.jpg  ") no-repeat;
+}
+#pageBoxOne #imgBox{
+    width: 211px;
+    height: 67px;
+    margin: 0px auto 50px;
+    padding-top: 50px;
+}
+#collectionOne{
+    width: 1100px;
+    height: 430px;
+    padding-top: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#cChildOne{
+    width: 1100px;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personBox1,
+.personBox2,
+.personBox3 {
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    position: absolute;
+}
+.personBox1 img,
+.personBox2 img,
+.personBox3 img {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    border: 1px solid gray;
+}
+.personBox1{
+    left: 140px;
+    top: -80px;
+}
+.personBox2{
+    left: 480px;
+    top: -80px;
+}
+.personBox3{
+    left: 820px;
+    top: -80px;
+}
+.infoBox1,
+.infoBox2,
+.infoBox3 {
+    width: 320px;
+    height: 355px;
+    padding-top: 80px;
+    border: 1px solid white;
+    background-color: white;
+    color: gray;
+}
+.infoBox2 {
+    margin-left: 20px;
+}
+.infoBox3 {
+    margin-left: 20px;
+}
+.infoBox1 p,
+.infoBox2 p,
+.infoBox3 p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pinfoBox {
+    width: 290px;
+    padding-left: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+#pageBoxTwo{
+    width: 100%;
+    height: 475px;
+    padding-top: 85px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#collectionTwo{
+    width: 1000px;
+    height: 425px;
+    margin: 0 auto;
+    color: black;
+    font-family: "Microsoft YaHei";
+}
+#collectionTwo div:nth-child(1){
+    width: 100%;
+    height: 33px;
+    margin-bottom: 50px;
+}
+#collectionTwo span:nth-child(1){
+    font-weight: bold;
+    width: 110px;
+    height: 33px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+#collectionTwo span:nth-child(2){
+    width: 77.05px;
+    height: 21px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+#collectionTwo hr{
+    border: none;
+    border-top: 1px dashed #0066CC;
+    margin-bottom: 30px;
+}
+#collectionTwo div:nth-child(3){
+    width: 970px;
+}
+#collectionTwo p{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+#pageBoxThree{
+    width: 100%;
+    height: 721px;
+    padding-top: 85px;
+    background-color: rgb(255,215,58);
+}
+#collectionThree{
+    width: 1000px;
+    height: 701px;
+    margin: 0 auto;
+    color: black;
+    font-family: "Microsoft YaHei";
+}
+#collectionThree div:nth-child(1){
+    width: 100%;
+    height: 33px;
+    margin-bottom: 50px;
+}
+#collectionThree span:nth-child(1){
+    font-weight: bold;
+    width: 110px;
+    height: 33px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+#collectionThree span:nth-child(2){
+    width: 77.05px;
+    height: 21px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+#collectionThree hr{
+    border-top: 1px dashed #0066CC;
+    margin-bottom: 30px;
+}
+#collectionThree div:nth-child(3){
+    width: 970px;
+}
+#collectionThree p{
+    margin-bottom: 20px;
+    color: gray;
+}
+#white{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black;
+}
+#footer{
+    width: 100%;
+    height: 83.11px;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+}
+#footer p{
+    padding-top: 40.1094px;
+    color: #A9A9A9;
+}
